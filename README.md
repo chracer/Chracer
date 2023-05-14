@@ -64,6 +64,7 @@ In Windows:
     +  case3.py
     +  case4.py
     +  case5.py
+    +  finder.py
     +  case_google_chrome.py
     +  case_microsoft_edge.py
     +  README.md
@@ -125,3 +126,17 @@ In this case, the tool extracts visited URL-related information from _dumps/case
 ```
 (venv) $ python3 case_microsoft_edge.py
 ```
+
+## Finder
+
+This code takes a minidump file as input. After it discovers a _Browser_ object from virtual memory dumped in minidump, it extracts visited URL-related information.
+
+```
+(venv) $ python3 finder.py dumps/case1.dmp
+```
+
+# Notes
+
+System requirements
+- 32GB of RAM
+- At least 50GB of free disk space
