@@ -1,3 +1,5 @@
+[Anon-repo for DFRWS APAC 2023]
+
 # *Chracer*
 
 *Chracer* is a proof-of-concept tool. *Chracer* uses object layout information obtained from the PDB to extract forensically meaningful information from Chromium's virtual memory. **Because *Chracer* is not yet optimized, some code is hard-coded.**
