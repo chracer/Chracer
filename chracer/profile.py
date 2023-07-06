@@ -16,7 +16,7 @@ class Profile(ChromiumInstanceInterface):
         if name == 'path':
             return U16String(self._mdmp, self._path.va)
         if name == 'path_creation_time':
-            return Time(convert_int(self._read_from(self._path_creation_time)))
+            return Time(convert_int(self._read_field(self._path_creation_time)))
         if name == 'io_task_runner':
             return convert_int(self._read_field(self._io_task_runner))
         if name == 'schema_registry_service':
